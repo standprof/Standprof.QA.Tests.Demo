@@ -7,9 +7,12 @@
     "SupportedBrowsers": "chrome,ie,firefox",
     "SelectBrowsersRandomly": true,
     "LogsFolder": "..\\Logs",
-    "SaveTestResultsToTestArtifactsDb": false,
+    "SaveTestResultsToTestArtifactsDb": true,
     "TestType": "UI",
     "LoggingMode": "Trace", //None, Steps, Debug, Trace
-    "TestArtifactsDbConnectionString": "Data Source=(localdb)\\mssqllocaldb; Initial Catalog = Standprof_TestArtifacts;Trusted_Connection=yes;"
+    "TestArtifactsDbConnectionString": "Data Source=(localdb)\\mssqllocaldb; Initial Catalog = Standprof_TestArtifacts;Trusted_Connection=yes;",
+    "TestArtifactsMongoDbConnectionString": "mongodb://127.0.0.1:27017",
+    "TestArtifactsMongoDbName": "TestArtifactsLocal",
+    "TypeOfTestResultsDb": "MongoDb" // MongoDb, SqlServer
   }
 }
