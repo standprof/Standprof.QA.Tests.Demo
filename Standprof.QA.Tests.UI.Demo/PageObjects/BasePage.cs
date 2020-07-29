@@ -78,10 +78,5 @@ namespace Standprof.QA.Tests.UI.Demo.PageObjects
 
             return errors.Count > 0;
         }
-
-
-
-
-
     }
 }
