@@ -7,7 +7,7 @@
     "SupportedBrowsers": "chrome,ie,firefox",
     "SelectBrowsersRandomly": true,
     "LogsFolder": "..\\Logs",
-    "SaveTestResultsToTestArtifactsDb": true,
+    "SaveTestResultsToTestArtifactsDb": false,
     "TestType": "UI",
     "LoggingMode": "Trace", //None, Steps, Debug, Trace
     "TestArtifactsDbConnectionString": "Data Source=(localdb)\\mssqllocaldb; Initial Catalog = Standprof_TestArtifacts;Trusted_Connection=yes;",
