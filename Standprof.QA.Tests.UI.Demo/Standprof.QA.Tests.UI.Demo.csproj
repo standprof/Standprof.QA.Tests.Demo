@@ -24,8 +24,8 @@
     </PackageReference>
     <PackageReference Include="MutedTracer.SpecflowPlugin" Version="0.0.1" />
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="89.0.4389.2300" />
-    <PackageReference Include="Selenium.WebDriver.GeckoDriver" Version="0.26.0.3" />
-    <PackageReference Include="Selenium.WebDriver.IEDriver" Version="3.150.1.1" />
+    <PackageReference Include="Selenium.WebDriver.GeckoDriver" Version="0.29.0" />
+    <PackageReference Include="Selenium.WebDriver.IEDriver" Version="3.150.1.2" />
     <PackageReference Include="SpecFlow" Version="3.3.30" />
     <PackageReference Include="SpecFlow.MsTest" Version="3.3.30" />
     <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.3.30" />
